@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Books</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/2.2.0/luxon.min.js"></script>
+  <title>Awesome Books</title>
 </head>
+
 <body>
-    <header>
-        <h1>Awesome books</h1>
-    </header>
-    <div class="books"></div>
-    <form action="post">
+
+    <nav>
+      <h1>Awesome books</h1>
+      <ul>
+        <li><a href="#" class="nav-link active" data-section="books">Books List</a></li>
+        <li><a href="#" class="nav-link" data-section="add-book">Add Book</a></li>
+        <li><a href="#" class="nav-link" data-section="contact">Contact Info</a></li>
+      </ul>
+    </nav>
+
+  <p id="current-date"></p>
+
+  <main>
+    <section id="books" class="content-section">
+      <h2>Books List</h2>
+      <div class="books"></div>
+    </section>
+    <section id="add-book" class="content-section">
+      <h3>Add Book</h2>
+      <form>
         <input type="text" placeholder="Title" class="title"><br><br>
         <input type="text" placeholder="Author" class="author"><br><br>
         <button type="submit" class="btn">Add</button>
-    </form>
-    <script src="App.js"></script>
+      </form>
+    </section>
+    <section id="contact" class="content-section">
+      <h2>Contact Info</h2>
+      <p>Phone: 123-456-7890</p>
+      <p>Email: contact@example.com</p>
+    </section>
+    <footer>
+        <p>&copy; Design by Imo Daniel</p>
+    </footer>
+  </main>
 
+
+  <script type="module" src="main.js"></script>
 </body>
+
 </html>
