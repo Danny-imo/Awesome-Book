@@ -1,0 +1,136 @@
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+h1 {
+  color: #fff;
+  font-size: 35px;
+  margin-bottom: -40px;
+}
+
+input {
+  width: 30%;
+  height: 50px;
+  border-radius: 9px;
+}
+
+#contact {
+  border: 4px solid;
+  font-size: 30px;
+  width: 30%;
+  margin-left: 35%;
+  height: 300px;
+  cursor: pointer;
+}
+
+#contact:hover {
+  box-shadow: 0 18px 9px rgba(9, 0, 0, 0.2);
+  border: 4px solid #4caf50;
+}
+
+#add-book {
+  border: none;
+}
+
+nav .active {
+  background-color: #4caf50;
+}
+
+.content-section {
+  display: none;
+  border: 8px solid;
+  margin: 25px;
+}
+
+.me {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+.content-section h2 {
+  margin-top: 0;
+}
+
+.p-title {
+  font-size: 30px;
+  margin-bottom: -20px;
+  margin-top: 10px;
+}
+
+.book {
+  padding-bottom: 20px;
+}
+
+.book:nth-child(even) {
+  background-color: aquamarine;
+}
+
+.remove-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 10px;
+  margin-right: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  width: 10%;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: #4caf50;
+  background-color: #fff;
+}
+
+footer {
+  margin-top: 23%;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: #333;
+}
+
+footer p {
+  color: #fff;
+  font-size: 20px;
+}
+
+nav h1 {
+  margin-top: 0;
+}
+
+#current-date {
+  text-align: right;
+}
