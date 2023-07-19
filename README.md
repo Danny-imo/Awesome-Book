@@ -46,7 +46,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Vanila Javascript</a></li>
+    <li><a href="https://www.javascript.com/">Vanila Javascript</a></li>
   </ul>
 </details>
 
@@ -109,9 +109,9 @@ You can deploy this project using:Github pages
 
 👤 **Imo Daniel**
 
-- GitHub: [@Danny-imo](https://github.com/Daniel-imo)
+- GitHub: [@Danny-imo](https://github.com/Danny-imo)
 - Twitter: [@danielimo758](https://twitter.com/danielimo758)
-- LinkedIn: [Imo Daniel](https://linkedin.com/in/Imo Daniel)
+- LinkedIn: [Imo Daniel](https://linkedin.com/in/imo-daniel-b15585167)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
